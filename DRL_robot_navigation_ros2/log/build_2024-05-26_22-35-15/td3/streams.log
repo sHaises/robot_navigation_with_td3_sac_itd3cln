@@ -1,0 +1,218 @@
+[0.010s] Invoking command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kusi/Downloads/DRL_robot_navigation_ros2/src/td3 -DCMAKE_INSTALL_PREFIX=/home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3
+[0.189s] -- The C compiler identification is GNU 9.4.0
+[0.352s] -- The CXX compiler identification is GNU 9.4.0
+[0.358s] -- Check for working C compiler: /usr/bin/cc
+[0.398s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.399s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.458s] -- Detecting C compile features
+[0.458s] -- Detecting C compile features - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.510s] -- Detecting CXX compiler ABI info
+[0.556s] -- Detecting CXX compiler ABI info - done
+[0.569s] -- Detecting CXX compile features
+[0.569s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.586s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.586s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.695s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.744s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.750s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.751s] -- Added test 'lint_cmake' to check CMake code style
+[0.752s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.755s] -- Added test 'xmllint' to check XML markup files
+[0.756s] -- Configuring done
+[0.758s] -- Generating done
+[0.759s] -- Build files have been written to: /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3
+[0.761s] Invoked command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kusi/Downloads/DRL_robot_navigation_ros2/src/td3 -DCMAKE_INSTALL_PREFIX=/home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3
+[0.763s] Invoking command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+[0.784s] Invoked command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+[0.802s] Invoking command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3
+[0.808s] -- Install configuration: ""
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//launch
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//launch/multi_robot_scenario.launch.py
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//launch/robot_state_publisher.launch.py
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//launch/training_simulation.launch.py
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//launch/pioneer3dx.rviz
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//launch/test_simulation.launch.py
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz
+[0.808s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz/example.rviz
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/example.world
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/lio_sam.model
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/package.xml
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch/example-launch.py
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models
+[0.809s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot
+[0.810s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/rs_robot.sdf
+[0.810s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes
+[0.810s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL
+[0.810s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors
+[0.810s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps
+[0.810s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+[0.812s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf
+[0.812s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+[0.816s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf
+[0.816s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+[0.817s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/camera
+[0.817s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30
+[0.817s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+[0.825s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head
+[0.825s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+[0.826s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base
+[0.826s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+[0.827s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base
+[0.827s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+[0.829s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+[0.829s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension
+[0.829s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+[0.830s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+[0.830s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+[0.831s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+[0.832s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+[0.832s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel
+[0.832s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+[0.833s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE
+[0.833s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors
+[0.833s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps
+[0.833s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+[0.833s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+[0.838s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf
+[0.838s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+[0.851s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+[0.851s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf
+[0.851s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+[0.853s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+[0.853s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera
+[0.853s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+[0.854s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30
+[0.854s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+[0.854s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+[0.883s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head
+[0.883s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+[0.884s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base
+[0.884s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+[0.885s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base
+[0.885s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+[0.896s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+[0.904s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension
+[0.904s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+[0.907s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+[0.912s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+[0.914s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+[0.916s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel
+[0.916s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+[0.918s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/model.config
+[0.918s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CHANGELOG.rst
+[0.918s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes
+[0.918s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.dae
+[0.919s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.stl
+[0.919s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.stl
+[0.919s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.dae
+[0.920s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.dae
+[0.921s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.stl
+[0.921s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.stl
+[0.921s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.dae
+[0.922s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.stl
+[0.923s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.dae
+[0.923s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf
+[0.923s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/HDL-32E.urdf.xacro
+[0.923s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-16.urdf.xacro
+[0.924s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/example.urdf.xacro
+[0.924s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-32C.urdf.xacro
+[0.924s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CMakeLists.txt
+[0.924s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes
+[0.924s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser
+[0.924s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser/hokuyo.dae
+[0.925s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx
+[0.925s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_wheel.stl
+[0.925s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/Coordinates
+[0.925s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_sonar.stl
+[0.926s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_hubcap.stl
+[0.926s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/top.stl
+[0.926s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/chassis.stl
+[0.926s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_wheel.stl
+[0.927s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_hubcap.stl
+[0.927s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_rim.stl
+[0.928s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/swivel.stl
+[0.929s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_wheel.stl
+[0.929s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_sonar.stl
+[0.929s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_rim.stl
+[0.931s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_hubcap.stl
+[0.931s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/model.config
+[0.932s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/td_robot.sdf
+[0.932s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts
+[0.932s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs
+[0.932s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403580.robotmania-MINIPC-PA90.28181.0
+[0.932s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1715632879.kusi-H610M-H-V2-DDR4.2757.0
+[0.932s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1716303729.kusi-H610M-H-V2-DDR4.11347.0
+[0.933s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1715632765.kusi-H610M-H-V2-DDR4.18257.0
+[0.933s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403642.robotmania-MINIPC-PA90.28717.0
+[0.935s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1715665990.kusi-H610M-H-V2-DDR4.2938.0
+[0.935s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1715632726.kusi-H610M-H-V2-DDR4.17731.0
+[0.935s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1715728191.kusi-H610M-H-V2-DDR4.8189.0
+[0.936s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1715704381.kusi-H610M-H-V2-DDR4.2833.0
+[0.936s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1716751936.kusi-H610M-H-V2-DDR4.6451.0
+[0.936s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1715632666.kusi-H610M-H-V2-DDR4.17185.0
+[0.936s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models
+[0.937s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_actor.pth
+[0.938s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_critic.pth
+[0.941s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/replay_buffer.py
+[0.941s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results
+[0.941s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results/td3_velodyne.npy
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results/TD3_velodyne.npy
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/test_velodyne_node.py
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/train_velodyne_node.py
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/point_cloud2.py
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/td_robot.urdf
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser
+[0.942s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser/hokuyo.dae
+[0.943s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx
+[0.943s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_wheel.stl
+[0.943s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/Coordinates
+[0.943s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_sonar.stl
+[0.943s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_hubcap.stl
+[0.943s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/top.stl
+[0.944s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/chassis.stl
+[0.944s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_wheel.stl
+[0.944s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_hubcap.stl
+[0.944s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_rim.stl
+[0.946s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/swivel.stl
+[0.946s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_wheel.stl
+[0.946s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_sonar.stl
+[0.947s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_rim.stl
+[0.948s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_hubcap.stl
+[0.948s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//worlds
+[0.948s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3//worlds/td3.world
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/replay_buffer.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/test_velodyne_node.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/train_velodyne_node.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/point_cloud2.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/multi_robot_scenario.launch.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/robot_state_publisher.launch.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/training_simulation.launch.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/test_simulation.launch.py
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/lib/td3/pioneer3dx.rviz
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/package_run_dependencies/td3
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/parent_prefix_path/td3
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.sh
+[0.949s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.dsv
+[0.950s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.sh
+[0.950s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.dsv
+[0.950s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.bash
+[0.950s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.sh
+[0.950s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.zsh
+[0.951s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.dsv
+[0.951s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/package.dsv
+[0.951s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/packages/td3
+[0.951s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config.cmake
+[0.951s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config-version.cmake
+[0.952s] -- Installing: /home/kusi/Downloads/DRL_robot_navigation_ros2/install/td3/share/td3/package.xml
+[0.955s] Invoked command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3

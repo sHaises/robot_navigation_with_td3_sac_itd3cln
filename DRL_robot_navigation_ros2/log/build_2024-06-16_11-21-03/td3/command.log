@@ -1,0 +1,4 @@
+Invoking command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+Invoked command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+Invoking command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3
+Invoked command in '/home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kusi/Downloads/DRL_robot_navigation_ros2/build/td3

@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:51 (file):
+  file INSTALL cannot find
+  "/home/kusi/Downloads/DRL_robot_navigation_ros2/src/td3/scripts/train_velodyne_node_iTD3.py":
+  No such file or directory.
+
+
