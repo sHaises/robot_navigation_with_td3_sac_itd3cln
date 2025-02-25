@@ -15,17 +15,19 @@ This project implements obstacle avoidance for a robotic system using three rein
 
 ### Prerequisites
 Ensure you have the following installed:
+-Ubuntu 20.04
 - ROS2 Foxy
 - Gazebo (compatible version with ROS2 Foxy)
-- Velodyne ROS package (`velodyne_driver`, `velodyne_laserscan`, etc.)
+- Velodyne ROS package (you can try this:https://github.com/ros-drivers/velodyne)
 - Python 3 and required dependencies
 - `gym`, `stable-baselines3`, and `torch` for reinforcement learning
+- tensorboard 
 
 ### Setup
 Clone the repository and install dependencies:
 ```bash
 cd ~/ros2_ws/src
-git clone <repository_url>
+git clone https://github.com/sHaises/robot_navigation_with_td3_sac_itd3cln.git
 cd ~/ros2_ws
 rosdep install --from-paths src --ignore-src -r -y
 colcon build
@@ -39,43 +41,33 @@ source install/setup.bash
 ros2 launch <your_package> gazebo.launch.py
 ```
 
-### 2. Start Velodyne Sensor
-```bash
-ros2 launch velodyne_driver velodyne_driver_node.launch.py
-```
 
-### 3. Run the RL-Based Navigation
-To start the obstacle avoidance using a specific algorithm:
+
+### . Run the RL-Based Navigation
+To start the obstacle avoidance using a specific algorithm for training and testing:
 
 #### TD3:
 ```bash
-ros2 run <your_package> obstacle_avoidance_td3
+ros2 launch td3 training_simulation.launch.py 
 ```
 
 #### TD3-CLN:
 ```bash
-ros2 run <your_package> obstacle_avoidance_td3_cln
+ros2 launch td3 train_it3.launch.py ^C
 ```
 
 #### SAC:
 ```bash
-ros2 run <your_package> obstacle_avoidance_sac
+ros2 launch td3 SAC.launch.py
+
 ```
 
-## Training the Model
-To train a new model using a specific algorithm, run:
-```bash
-python3 train.py --algorithm TD3
-python3 train.py --algorithm TD3-CLN
-python3 train.py --algorithm SAC
-```
+
 
 ## Simulation Visualization
 - Use Gazebo to visualize the robot navigating obstacles.
 - ROS2 Rviz can be used to view LiDAR data:
-```bash
-ros2 launch velodyne_laserscan velodyne_laserscan_node.launch.py
-```
+
 
 ## Contributing
 Feel free to submit issues or pull requests for improvements.
